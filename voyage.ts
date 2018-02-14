@@ -10,7 +10,7 @@ class Sejour {
 }
 
 class SejourService {
-    _sejours:Sejour[]
+    private _sejours:Sejour[];
 
     constructor(){
         this._sejours = new Array;
